@@ -173,3 +173,15 @@ footer {
   padding: 30px 0;
   display: block;
 }
+
+.button a {
+  background-color: #f195b2;
+  padding: 15px 40px;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.button a:hover {
+  background-color: #d2567d;
+}
