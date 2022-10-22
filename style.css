@@ -31,5 +31,126 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Lora", serif;
+  color: #242424;
 }
 
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h2, h3 {
+  color: #3e606b;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu img {
+  width: 170px;
+}
+
+section {
+  padding: 80px;
+}
+
+.menu ul {
+  list-style: none;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #242424;
+  padding: 0 15px;
+}
+
+.hero {
+  background-image: url(images/cupcake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.hero-text {
+  color: white;
+  max-width: 1100px;
+  padding-right: calc(1100px * 0.4);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-left {
+  display: flex;
+  padding: 80px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  gap: 30px
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  margin-right: 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card p {
+  padding: 20px;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.content-right {
+  display: flex;
+  padding: 80px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  gap: 30px
+}
+
+.nabidka {
+  background-color: #f0f0f0;
+}
+
+.section-inner {
+  max-width: 1100px;
+	margin: 0 auto;
+}
+
+footer {
+  background-color: #303339;
+  color:white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: block;
+}
